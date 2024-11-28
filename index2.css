@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and Font Style */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 50px;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header Styling */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: hwb(0 5% 11%);
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+    background-color: hsl(34, 85%, 51%);
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a:hover {
+    color: #f4a261;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 0;
+    background: #fff;
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+  }
+  
+  .project {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .project h3 {
+    color: #333;
+  }
+  
+  /* Contact Section Styling */
+  ul {
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    color: #f4a261;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 28px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  
+    section h2 {
+      font-size: 24px;
+    }
+  
+    section p {
+      font-size: 16px;
+    }
+  }
+  
